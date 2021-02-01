@@ -1,4 +1,4 @@
-## This section contains differnces between Haar Cascade and LBP classifiers. 
+## This section contains differences between Haar Cascade and LBP classifiers. 
 > The notebook 'Face_Detection' compares the time taken and accuracy to find the faces in an image.
 <hr>
 
