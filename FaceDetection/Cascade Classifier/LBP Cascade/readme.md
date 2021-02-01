@@ -11,3 +11,5 @@ is the new value of the center pixel. We do this for every pixel in a block.Then
 it converts each block value into a histogram, so now we have gotten one
 histogram for each block in an image.
 <hr>
+
+## To read original code, click [here](https://github.com/opencv/opencv/tree/master/data/lbpcascades)
