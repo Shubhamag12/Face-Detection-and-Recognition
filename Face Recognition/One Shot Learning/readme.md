@@ -16,7 +16,7 @@ it is learning a similarity function, which takes two images as input and expres
 similar they are.
 <hr>
 
-![Diagram](https://drive.google.com/file/d/19amSOwXhqvCziYStS1Ug8dodGWe3PFrB/view?usp=sharing)
+![Siamese Network](https://miro.medium.com/max/875/1*23mikUF3HBJGUqrX7tMKQQ.png)
 
 ## Tuning Hyperparameter of Siamese networks:
 <hr>
@@ -35,10 +35,14 @@ may distinguish properly.
 ## Loss Function:
 <hr>
 
-> <b><i>L(A, P,N) = max(d(A, P) − d(A,N) + 𝛂, 0)</i>,</b>
+![Loss Function](https://miro.medium.com/max/875/1*H_tT3SS13ZykLPocXuqwSw.png)
+
+> <b><i>L(A, P,N) = max(d(A, P) − d(A,N) + 𝛂, 0)</i></b>
 
 > <b><i>J = Σ L(A(i), P(i), N(i))</i></b>
 <hr>
 
 ## Adam Optimizer:
 It is an optimization algorithm used to update network weights.
+
+## To read the research paper, click [here](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)
